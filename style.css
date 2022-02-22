@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Start of Header */
+
+.header {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+
+.logo {
+    font-size: 24px;
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* End of of Header */
+
+/* Start of Hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 32px;
+    gap: 32px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+
+    margin: 0;
+}
+
+.container>p {
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.sign {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+img {
+    width: 350px;
+}
+
+
+
+/* End of Hero */
+
+/* Start of Info  TRY REMOVING DISPLAY: Flex and Flex-Direction from .info after COMPLETION OF WEBSITE*/
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 48px;
+}
+
+h2 {
+    margin-bottom: 48px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+
+.border_container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.borders {
+    display: flex;
+    max-width: 125px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.test {
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.text {
+    font-size: 12px;
+}
+
+/* End of Info */
+
+/* Start of Quote */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #E5E7EB;
+}
+
+
+.quote_container>p {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.quote_section {
+    font-size: 36px;
+    font-weight: 100;
+    width: 500px;
+}
+
+/* End of Quote */
+
+/* Start of CTA */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 48px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    width: 1000px;
+    height: 125px;
+}
+
+.cta_container {
+    padding: 0;
+    margin: 0;
+}
+
+.cta_container>h3 {
+    margin: 0;
+}
+
+.cta_container>p {
+    margin: 0;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.ctab {
+
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: solid 2px #F9FAF8;
+    width: 100px;
+    height: 30px;
+    color: #F9FAF8;
+}
+
+/* End of CTA */
+
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
